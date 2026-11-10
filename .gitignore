@@ -1,0 +1,43 @@
+# 本机构建与复核目录；不纳入版本管理。
+/work/
+
+# 构建输出（CMakePresets 的 build/Debug 也在内）
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CMakeUserPresets.json
+Testing/
+*.elf
+*.axf
+*.map
+*.bin
+*.hex
+*.o
+*.obj
+*.d
+*.su
+
+# 日志、临时文件和编辑器备份
+*.log
+*.tmp
+*.swp
+*.bak
+*~
+
+# 操作系统杂项
+.DS_Store
+Thumbs.db
+
+# IDE 个人状态（共享的 settings/tasks/launch 等配置不要整体忽略）
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+.idea/httpRequests/
+.idea/dictionaries/
+.idea/tasks.xml
+.vscode/ipch/
+.vscode/*.log
+.vscode/.browse.*
